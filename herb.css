@@ -1,0 +1,61 @@
+body {
+    background-color: #36fb3359;
+}
+#intro_img {
+    height: 26rem;
+}
+#intro-title {
+    text-shadow: 1px 1px 2px #1e6d0f, 0 0 1em #04ffc5, 0 0 0.2em #33ff00;
+}
+hr {
+    border-top: 2px solid rgb(0, 0, 0);
+    width: 75%;
+}
+#intro-p {
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #1e6d0f, 0 0 1em #04ffc5, 0 0 0.2em #33ff00;
+}
+#chamomile-img {
+    height: 16rem;
+}
+#echinacea-img {
+    height: 16rem;
+}
+#feverfew-img {
+    height: 16rem;
+}
+.flower {
+    font-size: x-large;
+    font-family: cursive;
+}
+.carousel-imgs {
+    height: 30rem;
+}
+.carousel-item p {
+    color: black;
+}
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px #00ff37, 0 0 1em blue, 0 0 0.2em blue;
+}
+.carousel-item p {
+    color: #a4cd40;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #00ff5a, 0 0 1em blue, 0 0 0.2em blue;
+}
+@media only screen and (max-width: 1000px) {
+    body {
+        background-color: black;
+    }
+    #intro_img {
+        height: 22rem;
+    }
+    #intro h2{ 
+        font-size: xx-large;
+    }
+    #intro p{ 
+        font-size: medium;
+    }
+  }
